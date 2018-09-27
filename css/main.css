@@ -123,12 +123,12 @@ header {
   justify-content: flex-end;
 
 }
-.form {
+.formText {
   margin-right: 10px;
   margin-top: 10px;
 }
 
-.form2 {
+.formPassword {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
@@ -156,7 +156,10 @@ header {
   background-color: white;
   color: rgb(29,161,242);
   margin-bottom: 5px;
+}
 
+.champ {
+  height: 40px;
 }
 /*******************END HEADER****************/
 /*******************START MAIN****************/
@@ -175,17 +178,17 @@ main {
   color: white;
   font-weight: bold;
 }
-
+/**********BLOCK 1*******/
 .Block1 {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
 }
-
+/**********BLOCK 1*******/
 .text {
 
 }
-
+/**********Icone*********/
 .icone {
   display: flex;
   flex-direction: column;
@@ -198,6 +201,7 @@ main {
   margin-bottom: 23px;
   margin-right: 15px;
 }
+/**********Icone*******/
 /*******************BLOCK-LEFT****************/
 /*******************BLOCK RIGHT****************/
 .Block-right {
@@ -209,14 +213,15 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+/************BLOCK2*******/
 .Block2 {
   width: 350px;
   height: auto;
   color: black;
   font-weight: 400;
 }
-
+/*************BLOCK2******/
+/*********BLOCK 2 BIS********/
 .Block2bis {
   width: 350px;
   display: flex;
@@ -226,7 +231,8 @@ main {
   font-weight: bold;
   color: black;
 }
-
+/*********BLOCK 2 BIS********/
+/*********BUTTON SUBSCRIBE AND CONNECT*********/
 .subscribe {
   background-color: rgb(29,161,242);
   border-radius: 20px;
@@ -235,6 +241,7 @@ main {
   font-weight: bold;
   color: white;
 }
+/*********BUTTON SUBSCRIBE AND CONNECT + ICONE*********/
 
 .connect {
   background-color: white;
@@ -250,14 +257,15 @@ main {
   display: flex;
   justify-content: flex-start;
 }
+/*********BUTTON SUBSCRIBE AND CONNECT + ICONE*********/
 
 /********************BLOCK RIGHT****************/
 /*******************END MAIN********************/
 /*******************START FOOTER****************/
 footer {
-
+  border-top: 1px solid grey;
 }
-
+/*****************START LIST*******************/
 ul {
   display: flex;
   flex-direction: row;
@@ -272,7 +280,8 @@ ul {
 ul li {
   margin-right: 20px;
 }
-
+/*****************END LIST*******************/
+/*********REDIRECTION MODFICATION*******/
 a {
   text-decoration: none;
   color: grey;
@@ -281,7 +290,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+/********REDIRECTION MODFICATION*******/
+/********MODIFICATION BLOCK CENTER 0 AND UL INSIDE*******/
 .center0 {
   text-decoration: none;
   color: grey;
@@ -295,7 +305,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
-
+/********MODIFICATION BLOCK CENTER 0 AND UL INSIDE*******/
 
 /*******************END FOOTER******************/
 
