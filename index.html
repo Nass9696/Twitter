@@ -21,40 +21,7 @@
 </head>
 
 <body>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~START HEADER~~~~~~~~~~~~~~~~~~~~~~~~~-->
-  <header>
-    <div class = "large">
-      <p></p>
-    </div>
-    <!--~~~~~~~~~~~~~~~~~START BLOCK-UP~~~~~~~~~~~~~~~~~--->
-    <div class = "Block-up">
-      <!--~~~~~~~~~~~~~~~~~START CONTENT~~~~~~~~~~~~~~~~~--->
-      <div class = "Content">
-        <!---~~~~~~~START FORM TEXT~~~~-->
-        <div class = "formText">
-          <form method = "post">
-              <input class = "champ" type = "text" name = "all" placeholder = "mail-numéro-nom de compte" size = "15"/>
-        </div>
-      <!---~~~~~~~~~~END FORM TEXT~~~~~-->
-      <!---~~~~~~~~~~PASSWORD~~~~~~~~~~-->
-        <div class = "formPassword">
-          <input class = "champ" type = "password" name = "pass" placeholder = "Password" size = "15"/>
-        <a class = "forgotPassword" href = "">Mot de passe oublié ?</a>
-        </div>
-      <!---~~~~~~~~~~PASSWORD~~~~~~~~~~-->
-      <!---~~~~~~~~~~~~~~~~~BUTTON "SE CONNECTER"~~~~~~~~~~~-->
-        <div class = "connexion">
-          <input class = "se-connecter" type = "submit" value = "Se connecter"/>
-        </div>
-      <!---~~~~~~~~~~~~~~~~~BUTTON "SE CONNECTER"~~~~~~~~~~~-->
-        </form>
-      <!---~~~~~~~~~~END FORM TEXT~~~~~~~~~~-->
-      </div>
-      <!--~~~~~~~~~~~END CONTENT~~~~~~~~~~~~~~~~~-->
-    </div>
-    <!--~~~~~~~~~~~~~~~~~END BLOCK-UP~~~~~~~~~~~~~~~~~--->
-  </header>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~START MAIN~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <main>
     <!--~~~~~~~~~~~~~~~~~START BLOCK-LEFT~~~~~~~~~~~~~~~~~-->
@@ -79,7 +46,22 @@
     <!---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~END BLOCK-LEFT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~START BLOCK-RIGHT~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <div class = "Block-right">
-      <!--~~~~~~~~~~~~~~~~~START BLOCK-2~~~~~~~~~~~~~~~~~-->
+      <div class = "Content">
+        <div class = "formText">
+          <form method = "post">
+            <input class = "champ" type = "text" name = "all" placeholder = "mail-numéro-nom de compte" size = "15"/>
+        </div>
+        <div class = "formPassword">
+          <input class = "champ" type = "password" name = "pass" placeholder = "Password" size = "15"/>
+        <a class = "forgotPassword" href = "">Mot de passe oublié ?</a>
+        </div>
+        <div class = "connexion">
+          <input class = "se-connecter" type = "submit" value = "Se connecter"/>
+        </div>
+        </form>
+      </div>
+      <!---p-->
+      <div class = "BlockText">
       <div class = "Block2">
         <i class="fab fa-twitter fa-2x"></i>
         <h2>Découvre ce qui se passe dans le monde en temps réel</h2>
@@ -91,6 +73,7 @@
         <input class = "subscribe" type = "submit" value = "S'inscrire"/>
         <input class = "connect" type = "submit" value = "Se connecter"/>
     </div>
+  </div>
     <!--~~~~~~~~~~~~~~~~~END BLOCK2BIS~~~~~~~~~~~~~~~~~-->
   </div>
     <!--~~~~~~~~~~~~~~~~~END BLOCK-RIGHT~~~~~~~~~~~~~~~~~-->
